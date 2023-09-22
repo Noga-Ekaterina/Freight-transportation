@@ -4,7 +4,9 @@
     font-family: Montserrat;
     font-weight: 500;
 }
-
+html{
+   font-size: 62.5%
+}
 header,
 main > div,
 footer {
@@ -99,7 +101,7 @@ a {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 5.5rem;
     font-weight: 500;
     margin-bottom: 25px;
 }
@@ -205,7 +207,7 @@ input {
 
 .big {
     font-weight: 600;
-    font-size: 1.117rem;
+    font-size: 2.1rem;
 }
 
 p {
@@ -220,7 +222,7 @@ strong {
 h2,
 #statistic .big {
     font-weight: 700;
-    font-size: 1.765rem;
+    font-size: 3.3rem;
 }
 
 h2 {
@@ -278,13 +280,13 @@ details[open] > summary:after {
 h3,
 .h3 {
     font-weight: 700;
-    font-size: 1.176rem;
+    font-size: 2.3rem;
     grid-area: h3;
 }
 
 .service a {
     font-weight: 500;
-    font-size: 1.118rem;
+    font-size: 2.1rem;
     color: #3284FF;
     text-decoration: underline;
 }
@@ -305,7 +307,7 @@ h3,
 .darck_blue li::before {
     content: "\25CF";
     color: #3284FF;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     padding-right: 10px;
 }
 
@@ -350,7 +352,7 @@ h3,
 }
 
 .nam_plan {
-    font-size: 10rem;
+    font-size: 19rem;
     font-weight: 700;
     color: rgba(50, 132, 255, 0.1);
     position: absolute;
@@ -358,7 +360,7 @@ h3,
 }
 
 #plan > div {
-    height: 10rem;
+    height: 34.7rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -398,7 +400,7 @@ h3,
 [class^="butt_arr"] {
     background: none;
     color: #3284FF;
-    font-size: 1.765rem;
+    font-size: 3.3rem;
     font-weight: 700;
     width: auto;
     border: 0
@@ -421,7 +423,7 @@ h3,
 blockquote:before {
     content: "\201C";
     color: #3284FF;
-    font-size: 2.353rem;
+    font-size: 4.5rem;
     font-weight: 800;
     position: absolute;
     left: 40px;
@@ -431,7 +433,7 @@ blockquote:before {
 blockquote:after {
     content: "\201D";
     color: #3284FF;
-    font-size: 2.353rem;
+    font-size: 4.5rem;
     font-weight: 800;
     position: absolute;
     right: 40px
@@ -452,9 +454,8 @@ footer .ABR{
 /*большой экран*/
 @media screen and (min-width:1920px) {
 
-    *,
-    html {
-        font-size: 22px;
+    *{
+        font-size: 2.2rem;
     }
 
     header,
@@ -783,9 +784,8 @@ footer .ABR{
 /*средний экран*/
 @media screen and (min-width:768px) and (max-width:1919px) {
 
-    *,
-    html, p{
-        font-size: 19px;
+    *{
+        font-size: 1.9rem;
     }
 
     header,
@@ -948,9 +948,8 @@ footer .ABR{
 /*маленький экран*/
 @media screen and (max-width:767px) {
 
-    *,
-    htm {
-        font-size: 19px;
+    * {
+        font-size: 1.9rem;
     }
 
     header,
@@ -963,10 +962,10 @@ footer .ABR{
         padding: 100px 1%
     }
     h1{
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     h2{
-        font-size: 25px
+        font-size: 2.5rem
     }
    
     .ABR {
@@ -1071,7 +1070,7 @@ footer .ABR{
     }
 
     .big {
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     block_form {
