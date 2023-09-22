@@ -784,7 +784,7 @@ footer .ABR{
 @media screen and (min-width:768px) and (max-width:1919px) {
 
     *,
-    html {
+    html, p{
         font-size: 19px;
     }
 
