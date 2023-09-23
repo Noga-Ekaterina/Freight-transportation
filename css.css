@@ -3,6 +3,10 @@
     padding: 0;
     font-family: Montserrat;
     font-weight: 500;
+    -moz-text-size-adjust:20%;
+    -webkit-text-size-adjust:20%; -ms-text-size-adjust: 20%;
+    -o-text-size-adjust: 20%;
+    text-size-adjust: 20%;
 }
 
 header,
