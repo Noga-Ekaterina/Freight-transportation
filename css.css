@@ -15,11 +15,11 @@ header,
 main > div,
 footer {
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
     max-width: 100vw;
+  overflow-x: hidden;
 }
 
 header,
@@ -465,7 +465,7 @@ footer .ABR{
     header,
     main > div,
     footer {
-        padding: 30px 10vw;
+        padding: 30px calc((100vw - 1400px)/ 2);
     }
 
     header {
@@ -501,7 +501,7 @@ footer .ABR{
         bottom: 0;
         right: 0;
         width: 60%;
-        max-width: 1510pt;
+        max-width: 1440px;
     }
 
     .block_form {
